@@ -376,3 +376,4 @@ secrets.json
 # Build outputs
 bin/
 obj/
+/Finantial_Manager_API/appsettings.Development.json
