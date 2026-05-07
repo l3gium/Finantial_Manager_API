@@ -361,3 +361,18 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# User secrets / environment config
+appsettings.Development.json
+appsettings.Local.json
+
+# .NET secrets
+secrets.json
+
+# Environment files
+.env
+*.env 
+
+# Build outputs
+bin/
+obj/

@@ -42,6 +42,9 @@ namespace Finantial_Manager_API.Models
         // Referência à categoria pai das subcategorias (ex. Food -> Restaurants -> Groceries)
         public Guid? ParentCategoryId { get; set; }
 
+        [JsonIgnore]
+        public Category? ParentCategory { get; set; }
+
         public ICollection<Category> SubCategories { get; set; } = new List<Category>();
 
         public Guid? UserId { get; set; }

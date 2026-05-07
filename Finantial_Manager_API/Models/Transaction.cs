@@ -73,7 +73,5 @@ namespace Finantial_Manager_API.Models
         public User User { get; set; }
 
         public Category Category { get; set; } = null;
-
-        public Attachment? Atacchment { get; set; }
     }
 }
