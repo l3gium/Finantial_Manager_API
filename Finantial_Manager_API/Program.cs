@@ -5,6 +5,10 @@ using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//Console.WriteLine("=== CONNECTION STRING BEING USED HERE ===");
+//Console.WriteLine(builder.Configuration.GetConnectionString("DefaultConnection"));
+//Console.WriteLine("======================================");
+
 // Add services to the container.
 
 builder.Services.AddControllers();
