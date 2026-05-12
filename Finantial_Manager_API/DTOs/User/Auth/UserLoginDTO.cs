@@ -2,7 +2,7 @@
 
 namespace Finantial_Manager_API.DTOs.User.Auth
 {
-    public class UserLoginDTO
+    public class UserLoginRequestDTO
     {
         [Required, EmailAddress]
         public string Email { get; set; } = string.Empty;
